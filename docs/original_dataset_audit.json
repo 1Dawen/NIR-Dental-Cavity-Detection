@@ -1,0 +1,53 @@
+{
+  "train": {
+    "referenced_images": 603,
+    "annotations": 1065,
+    "referenced_images_found": 603,
+    "missing_referenced_images": 0,
+    "unreferenced_extra_images": 625,
+    "distinct_filename_families": 201,
+    "invalid_or_outside_boxes": 0,
+    "categories": {
+      "1": "cavity"
+    }
+  },
+  "valid": {
+    "referenced_images": 61,
+    "annotations": 120,
+    "referenced_images_found": 61,
+    "missing_referenced_images": 0,
+    "unreferenced_extra_images": 56,
+    "distinct_filename_families": 61,
+    "invalid_or_outside_boxes": 0,
+    "categories": {
+      "1": "cavity"
+    }
+  },
+  "test": {
+    "referenced_images": 31,
+    "annotations": 61,
+    "referenced_images_found": 31,
+    "missing_referenced_images": 0,
+    "unreferenced_extra_images": 26,
+    "distinct_filename_families": 31,
+    "invalid_or_outside_boxes": 0,
+    "categories": {
+      "1": "cavity"
+    }
+  },
+  "cross_split": {
+    "train_vs_valid": {
+      "same_filename_family": 0,
+      "identical_referenced_image_hashes": 0
+    },
+    "train_vs_test": {
+      "same_filename_family": 0,
+      "identical_referenced_image_hashes": 0
+    },
+    "valid_vs_test": {
+      "same_filename_family": 0,
+      "identical_referenced_image_hashes": 0
+    }
+  },
+  "notes": "Checks for exact byte duplicates and filename families in the COCO-referenced images. Near duplicates and patient-level overlap require a separate image/provenance review."
+}

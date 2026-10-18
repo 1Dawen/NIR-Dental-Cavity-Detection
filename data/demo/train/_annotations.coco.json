@@ -1,0 +1,213 @@
+{
+  "info": {
+    "description": "Synthetic geometric shapes; not dental data"
+  },
+  "images": [
+    {
+      "id": 0,
+      "file_name": "synthetic_train_000.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 1,
+      "file_name": "synthetic_train_001.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 2,
+      "file_name": "synthetic_train_002.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 3,
+      "file_name": "synthetic_train_003.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 4,
+      "file_name": "synthetic_train_004.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 5,
+      "file_name": "synthetic_train_005.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 6,
+      "file_name": "synthetic_train_006.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 7,
+      "file_name": "synthetic_train_007.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 8,
+      "file_name": "synthetic_train_008.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 9,
+      "file_name": "synthetic_train_009.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 10,
+      "file_name": "synthetic_train_010.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 11,
+      "file_name": "synthetic_train_011.png",
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        40,
+        28,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        35,
+        36,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        23,
+        47,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        44,
+        45,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        30,
+        23,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        41,
+        54,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        25,
+        51,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        29,
+        46,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        31,
+        43,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "synthetic_spot"
+    }
+  ]
+}

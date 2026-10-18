@@ -1,0 +1,5 @@
+numpy>=1.26,<3.0
+Pillow>=10,<13
+# Torch and torchvision must be compatible; see https://pytorch.org/get-started/locally/
+torch>=2.2,<3.0
+torchvision>=0.17,<1.0

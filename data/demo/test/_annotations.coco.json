@@ -1,0 +1,81 @@
+{
+  "info": {
+    "description": "Synthetic geometric shapes; not dental data"
+  },
+  "images": [
+    {
+      "id": 0,
+      "file_name": "synthetic_test_000.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 1,
+      "file_name": "synthetic_test_001.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 2,
+      "file_name": "synthetic_test_002.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "id": 3,
+      "file_name": "synthetic_test_003.png",
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        45,
+        30,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        39,
+        46,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        30,
+        34,
+        9,
+        7
+      ],
+      "area": 63,
+      "segmentation": [],
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "synthetic_spot"
+    }
+  ]
+}
