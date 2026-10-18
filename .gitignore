@@ -1,0 +1,28 @@
+# Python and testing
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# Large or private research assets
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.blend1
+
+# Keep only the explicitly provided synthetic demonstration dataset
+# Clinical image data should be kept outside the public repository
+real_data/
+private_data/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
