@@ -100,7 +100,6 @@ python -m pytest -q
 │   ├── technical_review.md
 │   ├── original_dataset_audit.json
 │   └── synthetic_example.png
-├── legacy/                   # Original capstone Python scripts, unchanged
 ├── requirements.txt
 ├── requirements-dev.txt
 ├── .gitignore
