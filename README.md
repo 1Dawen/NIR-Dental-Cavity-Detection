@@ -1,10 +1,10 @@
 # Dental cavity detection with Faster R-CNN
 
-**Near-infrared imaging · Object detection · PyTorch · COCO annotations**
+**Near-infrared imaging | Object detection | PyTorch |  COCO annotations**
 
 This repository organizes the Faster R-CNN part of my dental cavity detection capstone project. The original implementation trained an object detector on near-infrared dental images, using COCO bounding-box annotations and evaluating detections on a separate test split.
 
-The maintained code here covers dataset loading, Faster R-CNN training, inference, box matching metrics, and dataset audits. It also includes an archived copy of the original Python scripts so the research implementation remains visible.
+The maintained code here covers dataset loading, Faster R-CNN training, inference, box matching metrics, and dataset audits.
 
 **Research prototype only.** This is not a dental diagnostic device. There is no trained medical model or clinical validation included in this public repository.
 
