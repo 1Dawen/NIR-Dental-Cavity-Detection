@@ -2,7 +2,9 @@
 
 **Near-infrared imaging | Object detection | PyTorch |  COCO annotations**
 
-This repository organizes the Faster R-CNN part of my dental cavity detection capstone project. The original implementation trained an object detector on near-infrared dental images, using COCO bounding-box annotations and evaluating detections on a separate test split.
+This repository contains the Faster R-CNN implementation from my capstone research, *Deep Learning based Dental Cavity Detection using Near Infrared Imaging*, completed at Universidad Politécnica Taiwán-Paraguay in 2025.
+
+The original research compared three object detection architectures: YOLOv8, DETR, and Faster R-CNN, using near-infrared dental images. Only the Faster R-CNN implementation is currently available in this repository. The YOLOv8 and DETR source code and trained models have not been preserved.
 
 The maintained code here covers dataset loading, Faster R-CNN training, inference, box matching metrics, and dataset audits.
 
@@ -116,3 +118,29 @@ This public version refactors data handling and evaluation for clearer reuse. It
 ## Research context
 
 This project was developed as part of a capstone on deep learning for dental cavity detection using near-infrared imaging. The supplied files contain a Faster R-CNN implementation. Other detector architectures mentioned in the broader capstone are not included in this code archive, so this repository does not claim to reproduce their experiments.
+
+## Research results
+
+The original capstone evaluated three deep learning models using transfer learning on a custom near-infrared dental image dataset.
+
+The research began with 293 images, expanded to 685 through preprocessing and data augmentation. Model performance was evaluated using mAP@0.5, F1-score, and recall.
+
+| Model | mAP@0.5 | F1-score | Recall |
+|---|---:|---:|---:|
+| YOLOv8 | 0.708 | 0.675 | 0.691 |
+| DETR | 0.687 | 0.634 | 0.588 |
+| **Faster R-CNN** | **0.742** | **0.774** | **0.830** |
+
+Faster R-CNN achieved the highest reported performance across all three metrics.
+
+### Code availability and reproducibility
+
+These results come from the original capstone research report.
+
+**Only the Faster R-CNN implementation is available in this repository.** The original YOLOv8 and DETR implementations, along with the trained model checkpoints, are no longer available.
+
+The included code provides a maintained Faster R-CNN training, evaluation, and inference workflow. However, the original experimental results cannot currently be reproduced directly from the published repository.
+
+The synthetic demonstration dataset is intended for testing the software, not reproducing the research findings.
+
+This work remains an experimental research prototype and has not been clinically validated.
