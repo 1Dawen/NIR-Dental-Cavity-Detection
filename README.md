@@ -20,6 +20,20 @@ The maintained code here covers dataset loading, Faster R-CNN training, inferenc
 
 The supplied archive did not include the trained Faster R-CNN checkpoint. As a result, the original model's predictions cannot be rerun directly. New training requires an appropriate image dataset.
 
+## Research results
+
+The original capstone evaluated three deep learning models using transfer learning on a custom near-infrared dental image dataset.
+
+The research began with 293 images, expanded to 685 through preprocessing and data augmentation. Model performance was evaluated using mAP@0.5, F1-score, and recall.
+
+| Model | mAP@0.5 | F1-score | Recall |
+|---|---:|---:|---:|
+| YOLOv8 | 0.708 | 0.675 | 0.691 |
+| DETR | 0.687 | 0.634 | 0.588 |
+| **Faster R-CNN** | **0.742** | **0.774** | **0.830** |
+
+Faster R-CNN achieved the highest reported performance across all three metrics.
+
 ## Synthetic demonstration
 
 ![Synthetic illustration with a bounding box](docs/synthetic_example.png)
@@ -115,23 +129,6 @@ The original scripts also had a COCO evaluation routine, but the checkpoint and 
 
 This public version refactors data handling and evaluation for clearer reuse. It should not be assumed to reproduce the exact parameters or metrics of the historical capstone experiments.
 
-## Research context
-
-This project was developed as part of a capstone on deep learning for dental cavity detection using near-infrared imaging. The supplied files contain a Faster R-CNN implementation. Other detector architectures mentioned in the broader capstone are not included in this code archive, so this repository does not claim to reproduce their experiments.
-
-## Research results
-
-The original capstone evaluated three deep learning models using transfer learning on a custom near-infrared dental image dataset.
-
-The research began with 293 images, expanded to 685 through preprocessing and data augmentation. Model performance was evaluated using mAP@0.5, F1-score, and recall.
-
-| Model | mAP@0.5 | F1-score | Recall |
-|---|---:|---:|---:|
-| YOLOv8 | 0.708 | 0.675 | 0.691 |
-| DETR | 0.687 | 0.634 | 0.588 |
-| **Faster R-CNN** | **0.742** | **0.774** | **0.830** |
-
-Faster R-CNN achieved the highest reported performance across all three metrics.
 
 ### Code availability and reproducibility
 
